@@ -16,17 +16,20 @@ const About = () => {
           <hr></hr>
         </h1>
         <div className="message">
-        <p className="message-body">
-          Hailing from Fort Walton Beach, Florida, Robert has been playing
-          saxaphone in bands since the 6th grade. He plays a variety of music
-          including polka and jazz, but loves playing in Big Bands. He
-          has played with bands and in solo gigs all over the South, including
-          in New Orleans, Destin, St. Petersburg, Mississipi, and Alabama. In
-          his free time, he created a church band and was the band director for
-          over 6 years.
-        </p>
+          <p className="message-body">
+            Hailing from Fort Walton Beach, Florida, Robert has been playing
+            saxaphone in bands since the 6th grade. He plays a variety of music
+            including polka and jazz, but loves playing in Big Bands. He has
+            played with bands and in solo gigs all over the South, including in
+            New Orleans, Destin, St. Petersburg, Mississipi, and Alabama. In his
+            free time, he created a church band and was the band director for
+            over 6 years.
+          </p>
         </div>
       </header>
+      <div>
+        <img src="./green.jpeg"></img>
+      </div>
     </div>
   );
 };

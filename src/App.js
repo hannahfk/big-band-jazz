@@ -13,6 +13,7 @@ import {
 import Navbar from "./Navbar";
 import Hire from './Hire'
 import About from './About'
+import Music from './Music'
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
           </Route>
           <Route exact path="/about">
             <About />
+          </Route>
+          <Route exact path="/music">
+            <Music />
           </Route>
         </Switch>
       </div>

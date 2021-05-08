@@ -47,6 +47,13 @@ const Navbar = () => {
             >
               Hire
             </NavLink>
+            <NavLink
+              className="navbar-item"
+              activeClassName="is-active"
+              to="/music"
+            >
+              Music
+            </NavLink>
           </div>
 
           <div className="navbar-end">
