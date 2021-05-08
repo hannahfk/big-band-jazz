@@ -1,26 +1,37 @@
-import saxaphone from './saxaphone.png';
-import './App.css';
+import saxaphone from "./saxaphone.png";
+import "./App.css";
+import Home from "./Home";
+import { Link } from "react-router-dom";
+import Routes from "./Routes";
+import {
+  BrowserRouter,
+  Route,
+  Switch,
+  Redirect,
+  NavLink,
+} from "react-router-dom";
+import Navbar from "./Navbar";
+import Hire from './Hire'
+import About from './About'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={saxaphone} className="App-logo" alt="logo" />
-        <p>
-          Robert Kemp
-          <hr></hr>
-          Musician
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Enter
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+     <Navbar />
+      <div className="App">
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/hire">
+            <Hire />
+          </Route>
+          <Route exact path="/about">
+            <About />
+          </Route>
+        </Switch>
+      </div>
+    </BrowserRouter>
   );
 }
 
