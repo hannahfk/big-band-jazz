@@ -21,7 +21,7 @@ const Music= () => {
           activeClassName="is-active"
           to="/about"
         >
-          About
+          YouTube
         </NavLink>
       </header>
     </div>
