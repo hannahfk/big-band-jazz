@@ -29,6 +29,7 @@ const Hire = () => {
         >
           About
         </NavLink> */}
+        <p> Can accomodate varying budgets.</p>
       </header>
     </div>
   );
