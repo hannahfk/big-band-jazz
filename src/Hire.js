@@ -3,7 +3,7 @@ import "./App.css";
 import { Link } from "react-router-dom";
 import Routes from "./Routes";
 import { Route, Switch, Redirect, NavLink } from "react-router-dom";
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 import React from "react";
 import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 import { ImLocation } from "react-icons/im";
