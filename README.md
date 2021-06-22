@@ -1,3 +1,5 @@
+A website made for Robert Kemp and his big bands. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
