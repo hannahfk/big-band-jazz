@@ -1,4 +1,4 @@
-A website made for Robert Kemp and his big bands. 
+A website made for Robert Kemp and his big bands. 🎷 
 
 # Getting Started with Create React App
 
